@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Color Flipper </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <h1> 🎨 Color Flipper 🎨</h1>
+    <p>
+      Background Color: <span id="color-code">#ffffff</span><br>
+      Color Name: <span id="color-name">White</span>
+    </p>
+    
+    <div class="buttons">
+      <button id="flip-btn">Flip Color</button>
+      <button id="copy-btn">Copy Code</button>
+      <button id="mode-btn">Mode: HEX</button>
+      <button id="save-btn">Save Favorite</button>
+    </div>
+
+    <p id="copy-msg"></p>
+
+    <h2>⭐Favorite Colors⭐</h2>
+    <div id="favorites"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

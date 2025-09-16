@@ -1,0 +1,100 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.5s ease;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f4f9;
+}
+
+.app-container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  max-width: 600px;
+  width: 90%;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+#color-code {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 10px 0;
+  color: #111;
+}
+
+#color-name {
+  font-style: italic;
+  color: #444;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #333;
+  color: #fff;
+  transition: transform 0.2s, background 0.3s;
+}
+
+button:hover {
+  background: #555;
+  transform: scale(1.05);
+}
+
+#copy-msg {
+  margin-top: 10px;
+  color: green;
+  font-weight: bold;
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 1.4rem;
+  color: #222;
+}
+
+#favorites {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.favorite {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.favorite:hover {
+  transform: scale(1.1);
+}
